@@ -1,7 +1,7 @@
 <template>
 
   <div>
-  <button @click="random">random</button>
+  <button @click="random">randomTest</button>
     <transition-group move-class="mmm" tag="div" class="wraps">
       <div class="items" v-for="(item, index) in list" :key="item.id">
         {{ item.number }}
